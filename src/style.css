@@ -1,0 +1,254 @@
+/* style.css */
+.header {
+    background: linear-gradient(to right, #6f279c, #58b0f8);
+    color: white;
+    padding: 16px;
+    /* margin-right: 60px; */
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu-link:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-button {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .menu-button:hover {
+    background-color: white;
+    color: #6a1b9a;
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-left: 40px;
+  }
+  
+  .subtext {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-left: 40px; 
+    margin-right: 40px;
+  }
+  
+   .talk-button {
+    margin-top: 24px;
+    background-color: white;
+    color: #6a1b9a;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+   }
+  
+  .talk-button:hover {
+    background-color: #6a1b9a;
+    color: white;
+  }
+
+
+
+
+  /* SecondPart css */
+  
+  .Second {
+    color: rgb(89, 117, 212);
+    padding: 16px;
+   margin-top: 50px;
+    /* margin-right: 60px; */
+  }
+
+  .features {
+    color: rgb(34, 32, 32);
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .card-deck {
+    display: flex;
+    justify-content: space-around; /* Adjust this as needed */
+    margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  
+  }
+
+  /* Custom CSS */
+.card-title-custom {
+  color: blue; /* Change to the desired font color */
+}
+
+.card-text-custom {
+  color: rgb(120, 129, 143); /* Change to the desired font color */
+  font-style: oblique;
+}
+
+  .card {
+    flex: 0 1 calc(33.333% - 1em); /* Adjust width and margin as needed */
+    min-height: 100px; /* Adjust the minimum height as needed */
+
+  }
+
+/* 
+  FourthComponent css */
+  
+  .link {
+    padding: 15px;
+  }
+
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust this as needed */
+  }
+  
+  .icon {
+    font-size: 48px;
+    color: skyblue; /* Ensure this is a valid color */
+  }
+
+
+  /* FifthComponent css */
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 2;
+  }
+  
+  .help-buttons {
+    display: flex;
+  }
+  
+  .help-button {
+   
+    background: linear-gradient(to right, #6f279c, #58b0f8);
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+  
+  .arrow-icon {
+    margin-left: 5px;
+  }
+  
+  .content-box {
+    padding: 20px;
+  }
+  
+  .small-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6a1b9a;
+    margin-top: 50px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .paragraph-text {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+ 
+  /* SixthComponent css */
+
+  .paragraph-text1 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 80px;
+  }
+
+  .header1 {
+    color: rgb(89, 117, 212);
+    padding: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  }
+
+  .features1 {
+    color: rgb(34, 32, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    font-weight: bold;
+  }
+
+
+  /* EightComponent Css */
+  .header2 {
+    background: linear-gradient(to right, #917d9e, #97abbd);
+    color: white;
+    padding: 16px;
+    margin-top: 60px;
+  }
+
+  .title2 {
+    font-style: italic;
+  }
+
+  /* Footer css */
+  .container1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    justify-content: center;
+}
+
+.header3 {
+  background: linear-gradient(to right, #6f279c, #58b0f8);
+  color: white;
+ padding: 10px;
+  margin-top: 60px;
+}
